@@ -1,0 +1,59 @@
+:root {
+  --grey: rgb(120, 120, 120);
+  --yellow: #ffef00;
+  --yellowBack: rgba(255, 239, 0, 0.8);
+}
+body {
+  
+}
+
+main {
+  padding: 5%;
+  background-image: url("images/laptop.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+h1 {
+  padding: 1em;
+  color: black;
+}
+
+section {
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    rgba(240, 247, 87, 0.5),
+    rgba(255,239,0,0.8)
+  );
+  border: 1px solid var(--yellowBack);
+  color: #787878;
+  margin: 0% 10% 20% 10%;
+  padding: 1em 3em 3em 3em;
+}
+
+section p {
+  font-size: 20px;
+  color: black;
+}
+
+#testimonial {
+  padding: 3em;
+  background-color: rgba(240, 247, 87, 0.4);
+}
+
+.testimonials {
+  color: black;
+  padding: 1em;
+  margin: 1em;
+  background-color: rgb(255, 241, 219);
+  border: 1px solid black;
+}
+
+/* @media only screen and (min-width: 500px) {
+    main {
+      height: 30em;
+    }
+  } */

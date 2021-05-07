@@ -1,0 +1,11 @@
+:root {
+  --grey: rgb(120, 120, 120);
+  --yellow: #ffef00;
+  --yellowBack: rgba(255, 239, 0, 0.8);
+}
+
+#applyHeader {
+  color: #ffef00;
+  text-align: center;
+  padding-top: 1em;
+}
